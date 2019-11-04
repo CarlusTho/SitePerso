@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 html{
     margin: 0;
     padding: 0;
@@ -7,34 +11,36 @@ html{
 
 body{
     margin: 0;
-    padding:
 }
 
 .grilleSite{
-    display:grid;
-    grid-template: repeat(10, 1fr) / repeat(5, 1fr);
-    border: 10px green;
+    display: grid;
+    grid-template-areas: ". . Titre . .";
+    border: 2px dashed black;
+
 }
 
 .zoneTitre{
-    
-
+    background-color: hotpink;
+    grid-row: 1;
+    grid-column: 3;
 }
+
 
 #titre{
-    text-align: center;
-
+    grid-area: Titre;
+    grid-row: 3;
 }
 
-.liens{
+ .liens{
     background-color: red;
     padding: 1%;
+    grid-row: 2;
 }
 
 #lien1{
     background-color: salmon;
-    margin-left: 25%;
-    padding: 0.75%;
+    grid-column: 2;
 }
 
 #lien2{
@@ -49,7 +55,7 @@ body{
     padding: 1%;
 }
 
-.wrapper{
+/* .wrapper{
     margin-top: 10%;
     position: relative;
     margin-right: auto;
@@ -60,7 +66,4 @@ body{
     padding-left: 10%;
     padding-right: 10%;
 }
-
-p{
-    color: brown;
-}
+*/
