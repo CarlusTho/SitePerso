@@ -15,7 +15,6 @@ body{
 
 .grilleSite{
     display: grid;
-    grid-template-areas: ". . Titre . .";
     border: 2px dashed black;
 
 }
@@ -28,7 +27,6 @@ body{
 
 
 #titre{
-    grid-area: Titre;
     grid-row: 3;
 }
 
