@@ -5,8 +5,7 @@
 html{
     margin: 0;
     padding: 0;
-
-    background-color: rgb(197, 197, 197);
+    background-color: #A7B59C;
 }
 
 body{
@@ -21,15 +20,15 @@ body{
 }
 
 .zoneTitre{
-    background-color: rgb(54, 54, 211);
+    background-color: #ccffcc;
     grid-column: 1 / 4;
 }
-
 
 #titre{
     grid-column: 1 / 3;
     grid-row: 1;
     font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 
@@ -40,23 +39,23 @@ body{
 }
 
 .liens{
-    background-color: crimson;
+    background-color: #d66d6d;
     grid-column: 1 / 4;
     grid-row: 2 / 7;
 }
 
 #lien1{
-    background-color: salmon;
+    background-color: #ffff4d;
     grid-column: 1 / 2;
 }
 
 #lien2{
-    background-color: salmon;
+    background-color: #ffff4d;
     grid-column: 2 / 3;
 }
 
 #lien3{
-    background-color: salmon;
+    background-color: #ffff4d;
     grid-column: 3 / 4;
 }
 
