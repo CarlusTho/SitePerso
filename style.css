@@ -61,7 +61,7 @@ body{
 }
 
 #photo1{
-
+    border: 2px black;
 }
 
 #photo1 > img {
