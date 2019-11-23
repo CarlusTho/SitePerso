@@ -47,6 +47,7 @@ body{
 #lien1{
     background-color: #ffff4d;
     grid-column: 1 / 2;
+    padding: 1%-n;
 }
 
 #lien2{
@@ -60,8 +61,7 @@ body{
 }
 
 #photo1{
-    grid-row: 4;
-    grid-column: 1;
+
 }
 
 #photo1 > img {
