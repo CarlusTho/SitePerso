@@ -6,7 +6,7 @@
 html {
     margin: 0;
     padding: 0;
-    background-color: #c5902a;
+    background-color: #652c11;
 }
 
 body{
@@ -15,7 +15,6 @@ body{
 
 .zoneTitre{
     padding: 0.5%;
-    background-color: #652c11;
 }
 
 .zoneTitre img{
@@ -29,29 +28,30 @@ body{
 }
 
 #reseaux{
-    font-size: 80%;
+    flex: inline;
 }
 
 .liens{
     display: grid;
     background-color: #f4d36c;
     padding: 3%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #lien1{
     grid-column: 1;
+    text-align: center;
     text-decoration: none;
 }
 
 #lien2{
     grid-column: 2;
+    text-align: center;
     text-decoration: none;
 }
 
 #lien3{
     grid-column: 3;
+    text-align: center;
     text-decoration: none;
 }
 
@@ -63,6 +63,12 @@ h3{
     width: 100%
 }
 
+#histoire { 
+    padding-top: 1%;
+    padding-bottom: 0.1%;
+    background-color: #c5902a;
+}
+
 #histoire > p{
     padding: 3%;
 }
@@ -72,12 +78,31 @@ h3{
     margin-left: 20%;
     
 }
+
+#CV {
+    padding: 6%;
+    background-color: #aa550f;
+
+}
+
+#photoCV {
+    width: 50%;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
 #lienCV{
     text-decoration: none;
 }
 
+#CV > p {
+    padding-top: 5%;
+}
+
 footer > p{
     font-size: 80%;
-    background-color: #652c11;
     padding: 3%;
 }
