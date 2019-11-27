@@ -27,10 +27,6 @@ body{
     padding: 1%;
 }
 
-#reseaux{
-    flex: inline;
-}
-
 .liens{
     display: grid;
     background-color: #f4d36c;
