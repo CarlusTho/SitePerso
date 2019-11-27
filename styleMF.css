@@ -59,6 +59,12 @@ h3{
     width: 100%
 }
 
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 2%;
+}
+
 #histoire { 
     padding-top: 1%;
     padding-bottom: 0.1%;
