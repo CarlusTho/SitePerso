@@ -96,7 +96,7 @@ h2 {
     transform: rotate(90deg);
 }
 
-#lienCV{
+#lienCV {
     text-decoration: none;
 }
 
@@ -104,7 +104,50 @@ h2 {
     padding-top: 5%;
 }
 
-footer > p{
+footer > p {
     font-size: 80%;
     padding: 3%;
 }
+
+@media all and (min-device-width: 480px) {
+
+    #histoire {
+        display: grid;
+    }
+
+    #accroche {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    #photo1 {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    #intro {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    #CV {
+        display: grid;
+    }
+
+    #CVtitre {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    #photoCV {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    #lienCV {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    
+}
+
